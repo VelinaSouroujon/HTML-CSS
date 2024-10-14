@@ -1,0 +1,22 @@
+body
+{
+    margin: 0;
+    border: 2px solid;
+    border-color: #008e00 #008e00 #7fc67f #008e00;
+    padding: 2em 10em;
+}
+.site
+{
+    border: 2px solid #3f3fff;
+}
+.site > *
+{
+    border: 2px solid black;
+    margin: 2em;
+}
+.site p
+{
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5em;
+}
