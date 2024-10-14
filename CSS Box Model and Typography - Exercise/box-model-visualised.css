@@ -1,0 +1,86 @@
+/* .container
+{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(255,150,111,255)
+}
+p
+{
+    text-align: center;
+    background-color: rgba(163,210,226,255);
+    padding: 2em;
+    border: 2px dashed black;
+} */
+/* .margin 
+{
+    width: 40%;
+    background-color: rgba(255, 150, 111, 255);
+}
+
+.border 
+{
+    background-color: rgba(255, 232, 198, 255);
+}
+
+.padding 
+{
+    background-color: rgba(133, 235, 133, 255);
+}
+
+.content
+{
+    text-align: center;
+    background-color: rgba(163, 210, 226, 255);
+} */
+ .container
+ {
+    width: 40%;
+    margin: 3em auto;
+ }
+ .container div
+ {
+    padding: 2em;
+    border: 1.5px dashed rgb(61, 55, 55);
+    position: relative;
+ }
+ .container p
+ {
+    padding: 1.5em;
+    border: 1.5px dashed rgb(61, 55, 55);
+ }
+ .container div::before
+ {
+    position: absolute;
+    top: 0;
+    left: 0.6em;
+ }
+ .margin
+ {
+    background-color: rgba(255, 150, 111, 255);
+ }
+ .margin::before
+ {
+    content: 'margin';
+ }
+ .border
+ {
+    background-color: rgba(255, 232, 198, 255);
+ }
+ .border::before
+ {
+    content: 'before';
+ }
+ .padding
+ {
+    background-color: rgba(133, 235, 133, 255);
+ }
+ .padding::before
+ {
+    content: 'padding';
+ }
+ .content
+ {
+    text-align: center;
+    background-color: rgba(163, 210, 226, 255);
+ }
+
