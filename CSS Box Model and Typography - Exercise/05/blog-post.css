@@ -1,0 +1,33 @@
+.lato-regular 
+{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.blog-post
+{
+    max-width: 55%;
+    margin: auto;
+    border: 1px solid lightgrey;
+    padding: 1.6em 2em;
+}
+.bold
+{
+    font-weight: bold;
+}
+.blog-post h2
+{
+    margin-top: 0;
+}
+.bigger-font-size
+{
+    font-size: 1.1em;
+}
+.post-first-part
+{
+    margin-bottom: 2.7em;
+}
+.blog-post footer
+{
+    margin-bottom: 1em;
+}
