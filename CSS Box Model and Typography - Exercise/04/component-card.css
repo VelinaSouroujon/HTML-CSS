@@ -1,0 +1,58 @@
+body
+{
+    width: 27%;
+    margin: auto;
+    background-color: #ebebeb;
+}
+.card
+{
+    background-color: white;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    overflow: hidden;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+}
+.remove-link-style
+{
+    text-decoration: none;
+    color: inherit
+}
+.no-margin
+{
+    margin: 0;
+}
+.card h2
+{
+    font-size: inherit;
+}
+.card img
+{
+    width: 100%;
+}
+.container
+{
+    padding: 1em 2.2em 1.7em 2.2em;
+}
+.main-text
+{
+    margin-bottom: 2em;
+}
+.ellipsis
+{
+    display: block;
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.discover-the-world
+{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.italic
+{
+    font-style: italic;
+}
