@@ -1,0 +1,24 @@
+body
+{
+    font-family: "Lato", sans-serif;
+}
+.container
+{
+    width: 65%;
+    margin: 1.5em auto;
+}
+.container details > summary
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+.container > div
+{
+    border: 2px solid lightgray;
+    border-top: 0;
+    padding: 1.2em 1.5em;
+}
+.container > div:first-child
+{
+    border-top: 2px solid lightgray;
+}
