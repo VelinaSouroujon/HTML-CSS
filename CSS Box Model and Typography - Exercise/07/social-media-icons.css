@@ -1,0 +1,17 @@
+.icons-container
+{
+    padding: 0.6em 1.5em;
+}
+.icon
+{
+    display: inline-block;
+    border-radius: 50%;
+    color:inherit;
+    margin: 0.3em;
+    padding: 1em;
+    background-color: #ebebeb;
+}
+.first-icon
+{
+    margin-left: 0;
+}
