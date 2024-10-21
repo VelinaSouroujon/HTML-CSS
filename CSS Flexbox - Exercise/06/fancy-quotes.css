@@ -1,0 +1,108 @@
+html 
+{
+    box-sizing: border-box;
+}
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
+body
+{
+    font-family: "Lato", sans-serif;
+    background-color: #eeeeee;
+    width: 70%;
+    margin: auto;
+}
+.container
+{
+    display: flex;
+    margin-top: 3em;
+}
+.left
+{
+    width: 70%;
+    margin-right: 2em;
+}
+.right
+{
+    width: 30%;
+}
+.border-radius
+{
+    border-radius: 10px;
+}
+.article-shadow
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.quote-and-circle-container
+ {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 2em 1.5em;
+ }
+ .bottom-margin
+ {
+    margin-bottom: 2em;
+ }
+.container div h4
+{
+    margin-bottom: 0;
+}
+.circle-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 28%;
+}
+.circle
+{
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+    background-color: #009900;
+    border-radius: 50%;
+    border: 5px solid white;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.quotes
+{
+    font-size: 4em;
+}
+.quote-container
+{
+    width: 70%;
+}
+.quote-text
+{
+    color: #a1a2a2;
+}
+.vertical-quote-and-circle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2em;
+    background-color: white;
+    padding: 2em 1.5em;
+    height: 100%;
+    margin-bottom: 2em;
+}
+.vertical-quote-and-circle h4
+{
+    margin-bottom: 2em;
+}
+.vertical-quote-and-circle .circle-container
+{
+    width: 40%;
+}
+.vertical-quote-and-circle .circle
+{
+    width: 100%;
+    padding-bottom: 100%;
+}
